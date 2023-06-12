@@ -6,12 +6,82 @@
     <title>project</title>
 </head>
 <body>
-    <h1><b>Project:</b></h1>
+    <header>
+        <h3><B>Project:</B></h3>
+    </header>
     <hr>
-    <br />
-    <br />
-    <pre>I am starting to built the portfolio from today.</pre>
-    <hr>
-    
+    <main>
+        <section>
+            <p><u><b>Fillup the form to view the projct:</b></u></p><hr>
+            <form action="/project1.php">
+                <div for="projct1"></div>
+                    <lebel for="first_name">
+                        <input type="text" id="first_name" name="name" placeholder="First Name">
+                        First Name
+                    </lebel>
+                    <br><br>
+                    <label for="Last_name">
+                        <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                        Last Name
+                    </label>
+                    <br><br>
+                </div>
+                <hr>
+                <div>
+                    <p><b><U>Education:</U></b></p>
+                    <label for="class X">
+                        <input type="radio" name="class" value="class X" id="class X">
+                        Class X
+                    </label>
+                    <br />
+                    <label for="class XII">
+                        <input type="radio" name="class" value="class XII" id="class XII">
+                        class XII
+                    </label>
+                    <br />
+                    <label for="Bachlour">
+                        <input type="radio" name="class" value="Bachlour" id="Bachlour">
+                        Bachlour
+                    </label>
+                    <br />
+                    <label for="Master">
+                        <input type="radio" name="class" value="Master" id="Master">
+                        Master
+                    </label>
+                </div>
+                <br /><hr>
+                <div>
+                    <p><b><u>Subject you want to study:</u></b></p>
+                    <label for="phy">
+                        <input type="checkbox" name="fav_sub" value="phy" id="phy">
+                        Physic
+                    </label>
+                    <label for="chem">
+                        <input type="checkbox" name="fav_sub" value="chem" id="chem">
+                        Chemestry
+                    </label>
+                    <label for="math">
+                        <input type="checkbox" name="fav_sub" value="math" id="math">
+                        Mathematices
+                    </label>
+                    <label for="social">
+                        <input type="checkbox" name="fav_sub" value="social" id="social">
+                        Social Studies
+                    </label>
+                </div>
+                <br /><hr>
+                <div>
+                    Select your city:
+                    <select name="City" id="city">
+                        <option value="Kathmandu">Kathmandu</option>
+                        <option value="Biratnagar">Biratnagar</option>
+                        <option value="Pokhara">Pokhara</option>
+                        <option value="Belbari">Belbari</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
